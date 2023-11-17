@@ -140,5 +140,11 @@ namespace Components
             frmCheckedListBox frmChkLB = new frmCheckedListBox();
             frmChkLB.ShowDialog();
         }
+
+        private void comboBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmComboBox frmCb = new frmComboBox();
+            frmCb.ShowDialog();
+        }
     }
 }
