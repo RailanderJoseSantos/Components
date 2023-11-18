@@ -42,6 +42,7 @@
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnDatetimePicker = new System.Windows.Forms.ToolStripMenuItem();
             this.mnLinkLabel = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnlistBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -130,7 +131,8 @@
             this.submnCheckedListBox,
             this.comboBoxToolStripMenuItem,
             this.mnDatetimePicker,
-            this.mnLinkLabel});
+            this.mnLinkLabel,
+            this.mnlistBoxToolStripMenuItem});
             this.mnComponentes.Name = "mnComponentes";
             this.mnComponentes.Size = new System.Drawing.Size(94, 20);
             this.mnComponentes.Text = "Componentes";
@@ -169,6 +171,13 @@
             this.mnLinkLabel.Size = new System.Drawing.Size(180, 22);
             this.mnLinkLabel.Text = "Label/LinkLabel";
             this.mnLinkLabel.Click += new System.EventHandler(this.mnLinkLabel_Click_1);
+            // 
+            // mnlistBoxToolStripMenuItem
+            // 
+            this.mnlistBoxToolStripMenuItem.Name = "mnlistBoxToolStripMenuItem";
+            this.mnlistBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mnlistBoxToolStripMenuItem.Text = "ListBox";
+            this.mnlistBoxToolStripMenuItem.Click += new System.EventHandler(this.mnlistBoxToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -212,6 +221,7 @@
         private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnDatetimePicker;
         private System.Windows.Forms.ToolStripMenuItem mnLinkLabel;
+        private System.Windows.Forms.ToolStripMenuItem mnlistBoxToolStripMenuItem;
     }
 }
 

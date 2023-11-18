@@ -158,5 +158,11 @@ namespace Components
             frmLinkLabel frmLinkLabel = new frmLinkLabel();
             frmLinkLabel.ShowDialog();
         }
+
+        private void mnlistBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListBox frmLb = new frmListBox();
+            frmLb.ShowDialog();
+        }
     }
 }
