@@ -40,6 +40,7 @@
             this.sbmnComponentes_Checkbox = new System.Windows.Forms.ToolStripMenuItem();
             this.submnCheckedListBox = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnLinkLabel = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -126,7 +127,8 @@
             this.mnComponentes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sbmnComponentes_Checkbox,
             this.submnCheckedListBox,
-            this.comboBoxToolStripMenuItem});
+            this.comboBoxToolStripMenuItem,
+            this.mnLinkLabel});
             this.mnComponentes.Name = "mnComponentes";
             this.mnComponentes.Size = new System.Drawing.Size(94, 20);
             this.mnComponentes.Text = "Componentes";
@@ -151,6 +153,13 @@
             this.comboBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.comboBoxToolStripMenuItem.Text = "ComboBox";
             this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
+            // 
+            // mnLinkLabel
+            // 
+            this.mnLinkLabel.Name = "mnLinkLabel";
+            this.mnLinkLabel.Size = new System.Drawing.Size(180, 22);
+            this.mnLinkLabel.Text = "Label/LinkLabel";
+            this.mnLinkLabel.Click += new System.EventHandler(this.mnLinkLabel_Click);
             // 
             // frmPrincipal
             // 
@@ -192,6 +201,7 @@
         private System.Windows.Forms.ToolStripMenuItem sbmnComponentes_Checkbox;
         private System.Windows.Forms.ToolStripMenuItem submnCheckedListBox;
         private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnLinkLabel;
     }
 }
 

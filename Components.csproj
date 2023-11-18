@@ -76,6 +76,12 @@
     <Compile Include="frmFilhoChkb.Designer.cs">
       <DependentUpon>frmFilhoChkb.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLinkLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLinkLabel.Designer.cs">
+      <DependentUpon>frmLinkLabel.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVeiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmFilhoChkb.resx">
       <DependentUpon>frmFilhoChkb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLinkLabel.resx">
+      <DependentUpon>frmLinkLabel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVeiculos.resx">
       <DependentUpon>frmVeiculos.cs</DependentUpon>

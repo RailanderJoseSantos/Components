@@ -146,5 +146,11 @@ namespace Components
             frmComboBox frmCb = new frmComboBox();
             frmCb.ShowDialog();
         }
+
+        private void mnLinkLabel_Click(object sender, EventArgs e)
+        {
+            frmLinkLabel frmLabel = new frmLinkLabel();
+            frmLabel.ShowDialog();
+        }
     }
 }
