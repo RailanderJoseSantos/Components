@@ -147,10 +147,16 @@ namespace Components
             frmCb.ShowDialog();
         }
 
-        private void mnLinkLabel_Click(object sender, EventArgs e)
+        private void mnDatetimePicker_Click(object sender, EventArgs e)
         {
-            frmLinkLabel frmLabel = new frmLinkLabel();
-            frmLabel.ShowDialog();
+            frmDateTimePicker frmdtmp = new frmDateTimePicker();
+            frmdtmp.ShowDialog();
+        }
+
+        private void mnLinkLabel_Click_1(object sender, EventArgs e)
+        {
+            frmLinkLabel frmLinkLabel = new frmLinkLabel();
+            frmLinkLabel.ShowDialog();
         }
     }
 }

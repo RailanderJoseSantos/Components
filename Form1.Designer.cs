@@ -40,6 +40,7 @@
             this.sbmnComponentes_Checkbox = new System.Windows.Forms.ToolStripMenuItem();
             this.submnCheckedListBox = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnDatetimePicker = new System.Windows.Forms.ToolStripMenuItem();
             this.mnLinkLabel = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -128,6 +129,7 @@
             this.sbmnComponentes_Checkbox,
             this.submnCheckedListBox,
             this.comboBoxToolStripMenuItem,
+            this.mnDatetimePicker,
             this.mnLinkLabel});
             this.mnComponentes.Name = "mnComponentes";
             this.mnComponentes.Size = new System.Drawing.Size(94, 20);
@@ -154,12 +156,19 @@
             this.comboBoxToolStripMenuItem.Text = "ComboBox";
             this.comboBoxToolStripMenuItem.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
             // 
+            // mnDatetimePicker
+            // 
+            this.mnDatetimePicker.Name = "mnDatetimePicker";
+            this.mnDatetimePicker.Size = new System.Drawing.Size(180, 22);
+            this.mnDatetimePicker.Text = "DateTimePicker";
+            this.mnDatetimePicker.Click += new System.EventHandler(this.mnDatetimePicker_Click);
+            // 
             // mnLinkLabel
             // 
             this.mnLinkLabel.Name = "mnLinkLabel";
             this.mnLinkLabel.Size = new System.Drawing.Size(180, 22);
             this.mnLinkLabel.Text = "Label/LinkLabel";
-            this.mnLinkLabel.Click += new System.EventHandler(this.mnLinkLabel_Click);
+            this.mnLinkLabel.Click += new System.EventHandler(this.mnLinkLabel_Click_1);
             // 
             // frmPrincipal
             // 
@@ -201,6 +210,7 @@
         private System.Windows.Forms.ToolStripMenuItem sbmnComponentes_Checkbox;
         private System.Windows.Forms.ToolStripMenuItem submnCheckedListBox;
         private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnDatetimePicker;
         private System.Windows.Forms.ToolStripMenuItem mnLinkLabel;
     }
 }
