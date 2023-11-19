@@ -36,13 +36,14 @@
             this.btVerLista = new System.Windows.Forms.Button();
             this.btnValNum = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.mnComponentes = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnListView = new System.Windows.Forms.ToolStripMenuItem();
             this.sbmnComponentes_Checkbox = new System.Windows.Forms.ToolStripMenuItem();
             this.submnCheckedListBox = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mnDatetimePicker = new System.Windows.Forms.ToolStripMenuItem();
             this.mnLinkLabel = new System.Windows.Forms.ToolStripMenuItem();
             this.mnlistBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -117,25 +118,26 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnComponentes});
+            this.mnListView});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(282, 24);
             this.menuStrip1.TabIndex = 7;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // mnComponentes
+            // mnListView
             // 
-            this.mnComponentes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnListView.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sbmnComponentes_Checkbox,
             this.submnCheckedListBox,
             this.comboBoxToolStripMenuItem,
             this.mnDatetimePicker,
             this.mnLinkLabel,
-            this.mnlistBoxToolStripMenuItem});
-            this.mnComponentes.Name = "mnComponentes";
-            this.mnComponentes.Size = new System.Drawing.Size(94, 20);
-            this.mnComponentes.Text = "Componentes";
+            this.mnlistBoxToolStripMenuItem,
+            this.listViewToolStripMenuItem});
+            this.mnListView.Name = "mnListView";
+            this.mnListView.Size = new System.Drawing.Size(94, 20);
+            this.mnListView.Text = "Componentes";
             // 
             // sbmnComponentes_Checkbox
             // 
@@ -179,6 +181,13 @@
             this.mnlistBoxToolStripMenuItem.Text = "ListBox";
             this.mnlistBoxToolStripMenuItem.Click += new System.EventHandler(this.mnlistBoxToolStripMenuItem_Click);
             // 
+            // listViewToolStripMenuItem
+            // 
+            this.listViewToolStripMenuItem.Name = "listViewToolStripMenuItem";
+            this.listViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listViewToolStripMenuItem.Text = "ListView";
+            this.listViewToolStripMenuItem.Click += new System.EventHandler(this.listViewToolStripMenuItem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -215,13 +224,14 @@
         private System.Windows.Forms.Button btVerLista;
         private System.Windows.Forms.Button btnValNum;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem mnComponentes;
+        private System.Windows.Forms.ToolStripMenuItem mnListView;
         private System.Windows.Forms.ToolStripMenuItem sbmnComponentes_Checkbox;
         private System.Windows.Forms.ToolStripMenuItem submnCheckedListBox;
         private System.Windows.Forms.ToolStripMenuItem comboBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mnDatetimePicker;
         private System.Windows.Forms.ToolStripMenuItem mnLinkLabel;
         private System.Windows.Forms.ToolStripMenuItem mnlistBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listViewToolStripMenuItem;
     }
 }
 

@@ -164,5 +164,11 @@ namespace Components
             frmListBox frmLb = new frmListBox();
             frmLb.ShowDialog();
         }
+
+        private void listViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListView frmLW = new frmListView();
+            frmLW.ShowDialog();
+        }
     }
 }
