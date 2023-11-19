@@ -170,5 +170,11 @@ namespace Components
             frmListView frmLW = new frmListView();
             frmLW.ShowDialog();
         }
+
+        private void maskedTextBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMaskedTextBox frmMascara = new frmMaskedTextBox();
+            frmMascara.ShowDialog();
+        }
     }
 }

@@ -100,6 +100,12 @@
     <Compile Include="frmListView.Designer.cs">
       <DependentUpon>frmListView.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMaskedTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaskedTextBox.Designer.cs">
+      <DependentUpon>frmMaskedTextBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVeiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmListView.resx">
       <DependentUpon>frmListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaskedTextBox.resx">
+      <DependentUpon>frmMaskedTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVeiculos.resx">
       <DependentUpon>frmVeiculos.cs</DependentUpon>
