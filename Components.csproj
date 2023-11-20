@@ -112,6 +112,12 @@
     <Compile Include="frmMonthCalendar.Designer.cs">
       <DependentUpon>frmMonthCalendar.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNumeric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNumeric.Designer.cs">
+      <DependentUpon>frmNumeric.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVeiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +158,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMonthCalendar.resx">
       <DependentUpon>frmMonthCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNumeric.resx">
+      <DependentUpon>frmNumeric.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVeiculos.resx">
       <DependentUpon>frmVeiculos.cs</DependentUpon>

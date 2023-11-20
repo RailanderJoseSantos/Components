@@ -182,5 +182,11 @@ namespace Components
             frmMonthCalendar calendario = new frmMonthCalendar();
             calendario.ShowDialog();    
         }
+
+        private void numericUpDownToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNumeric numUpDown = new frmNumeric();
+            numUpDown.ShowDialog();
+        }
     }
 }
