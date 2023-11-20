@@ -31,8 +31,9 @@
             this.mskTxbSenha = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.msktbCpf = new System.Windows.Forms.MaskedTextBox();
-            this.btnMostrar = new System.Windows.Forms.Button();
             this.ckbOpcao = new System.Windows.Forms.CheckBox();
+            this.btnRevelarSenha = new System.Windows.Forms.Button();
+            this.btnImprime = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mskTxbSenha
@@ -42,6 +43,7 @@
             this.mskTxbSenha.PasswordChar = '*';
             this.mskTxbSenha.Size = new System.Drawing.Size(146, 20);
             this.mskTxbSenha.TabIndex = 0;
+            this.mskTxbSenha.TextMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals;
             // 
             // label1
             // 
@@ -62,33 +64,44 @@
             this.msktbCpf.TabIndex = 2;
             this.msktbCpf.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             // 
-            // btnMostrar
-            // 
-            this.btnMostrar.Location = new System.Drawing.Point(290, 55);
-            this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(75, 23);
-            this.btnMostrar.TabIndex = 3;
-            this.btnMostrar.Text = "Mostrar";
-            this.btnMostrar.UseVisualStyleBackColor = true;
-            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
-            // 
             // ckbOpcao
             // 
             this.ckbOpcao.AutoSize = true;
-            this.ckbOpcao.Location = new System.Drawing.Point(177, 55);
+            this.ckbOpcao.Location = new System.Drawing.Point(167, 74);
             this.ckbOpcao.Name = "ckbOpcao";
             this.ckbOpcao.Size = new System.Drawing.Size(94, 17);
             this.ckbOpcao.TabIndex = 4;
             this.ckbOpcao.Text = "Somente texto";
             this.ckbOpcao.UseVisualStyleBackColor = true;
             // 
+            // btnRevelarSenha
+            // 
+            this.btnRevelarSenha.Location = new System.Drawing.Point(167, 37);
+            this.btnRevelarSenha.Name = "btnRevelarSenha";
+            this.btnRevelarSenha.Size = new System.Drawing.Size(94, 23);
+            this.btnRevelarSenha.TabIndex = 5;
+            this.btnRevelarSenha.Text = "Mostrar Senha";
+            this.btnRevelarSenha.UseVisualStyleBackColor = true;
+            this.btnRevelarSenha.Click += new System.EventHandler(this.btnRevelarSenha_Click);
+            // 
+            // btnImprime
+            // 
+            this.btnImprime.Location = new System.Drawing.Point(267, 72);
+            this.btnImprime.Name = "btnImprime";
+            this.btnImprime.Size = new System.Drawing.Size(94, 23);
+            this.btnImprime.TabIndex = 6;
+            this.btnImprime.Text = "Exibir Dados";
+            this.btnImprime.UseVisualStyleBackColor = true;
+            this.btnImprime.Click += new System.EventHandler(this.btnImprime_Click);
+            // 
             // frmMaskedTextBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(455, 492);
+            this.Controls.Add(this.btnImprime);
+            this.Controls.Add(this.btnRevelarSenha);
             this.Controls.Add(this.ckbOpcao);
-            this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.msktbCpf);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.mskTxbSenha);
@@ -104,7 +117,8 @@
         private System.Windows.Forms.MaskedTextBox mskTxbSenha;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox msktbCpf;
-        private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.Button btnRevelarSenha;
         private System.Windows.Forms.CheckBox ckbOpcao;
+        private System.Windows.Forms.Button btnImprime;
     }
 }

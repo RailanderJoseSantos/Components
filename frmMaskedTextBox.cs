@@ -16,29 +16,37 @@ namespace Components
         {
             InitializeComponent();
         }
-
-        private void btnMostrar_Click(object sender, EventArgs e)
+        private void btnRevelarSenha_Click(object sender, EventArgs e)
         {
+            if (mskTxbSenha.PasswordChar.Equals('*'))
+            {
+                mskTxbSenha.PasswordChar = '\0';
+                btnRevelarSenha.Text = "Ocultar Senha";
+            }
+            else
+            {
+                mskTxbSenha.PasswordChar = '*';
+                btnRevelarSenha.Text = "Mostrar Senha";
+            }
 
+        }
+
+        private void btnImprime_Click(object sender, EventArgs e)
+        {
             if (ckbOpcao.Checked)
             {
-                mskTxbSenha.TextMaskFormat= MaskFormat.ExcludePromptAndLiterals;
                 msktbCpf.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             }
             else
             {
-                mskTxbSenha.TextMaskFormat = MaskFormat.IncludeLiterals;
                 msktbCpf.TextMaskFormat = MaskFormat.IncludeLiterals;
             }
 
             string msg = "";
-            if(mskTxbSenha != null)
+
+            if (msktbCpf.Text != null)
             {
-                msg="Senha: "+ mskTxbSenha.Text;
-            }
-            if(msktbCpf.Text!=null)
-            {
-                msg+= " CPF: "+msktbCpf.Text;
+                msg += " CPF: " + msktbCpf.Text;
             }
 
             MessageBox.Show(msg);
