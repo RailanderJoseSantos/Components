@@ -176,5 +176,11 @@ namespace Components
             frmMaskedTextBox frmMascara = new frmMaskedTextBox();
             frmMascara.ShowDialog();
         }
+
+        private void monthCalendarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMonthCalendar calendario = new frmMonthCalendar();
+            calendario.ShowDialog();    
+        }
     }
 }

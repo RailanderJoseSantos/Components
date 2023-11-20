@@ -45,6 +45,7 @@
             this.mnlistBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maskedTextBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monthCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -136,7 +137,8 @@
             this.mnLinkLabel,
             this.mnlistBoxToolStripMenuItem,
             this.listViewToolStripMenuItem,
-            this.maskedTextBoxToolStripMenuItem});
+            this.maskedTextBoxToolStripMenuItem,
+            this.monthCalendarToolStripMenuItem});
             this.mnListView.Name = "mnListView";
             this.mnListView.Size = new System.Drawing.Size(94, 20);
             this.mnListView.Text = "Componentes";
@@ -197,6 +199,13 @@
             this.maskedTextBoxToolStripMenuItem.Text = "MaskedTextBox";
             this.maskedTextBoxToolStripMenuItem.Click += new System.EventHandler(this.maskedTextBoxToolStripMenuItem_Click);
             // 
+            // monthCalendarToolStripMenuItem
+            // 
+            this.monthCalendarToolStripMenuItem.Name = "monthCalendarToolStripMenuItem";
+            this.monthCalendarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.monthCalendarToolStripMenuItem.Text = "MonthCalendar";
+            this.monthCalendarToolStripMenuItem.Click += new System.EventHandler(this.monthCalendarToolStripMenuItem_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,6 +251,7 @@
         private System.Windows.Forms.ToolStripMenuItem mnlistBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listViewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maskedTextBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem monthCalendarToolStripMenuItem;
     }
 }
 
