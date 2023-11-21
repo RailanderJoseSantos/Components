@@ -37,6 +37,16 @@
             this.btnValNum = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnListView = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sbmnComponentes_Checkbox = new System.Windows.Forms.ToolStripMenuItem();
             this.submnCheckedListBox = new System.Windows.Forms.ToolStripMenuItem();
             this.comboBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,23 +57,14 @@
             this.maskedTextBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.monthCalendarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numericUpDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAdicionar
             // 
             this.btnAdicionar.Location = new System.Drawing.Point(251, 95);
-            this.btnAdicionar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdicionar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(100, 28);
             this.btnAdicionar.TabIndex = 0;
@@ -74,7 +75,7 @@
             // tbNmVeiculo
             // 
             this.tbNmVeiculo.Location = new System.Drawing.Point(16, 98);
-            this.tbNmVeiculo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbNmVeiculo.Margin = new System.Windows.Forms.Padding(4);
             this.tbNmVeiculo.Name = "tbNmVeiculo";
             this.tbNmVeiculo.Size = new System.Drawing.Size(225, 22);
             this.tbNmVeiculo.TabIndex = 1;
@@ -94,7 +95,7 @@
             // 
             this.tbListaVeiculos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbListaVeiculos.Location = new System.Drawing.Point(16, 130);
-            this.tbListaVeiculos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbListaVeiculos.Margin = new System.Windows.Forms.Padding(4);
             this.tbListaVeiculos.Multiline = true;
             this.tbListaVeiculos.Name = "tbListaVeiculos";
             this.tbListaVeiculos.ReadOnly = true;
@@ -105,7 +106,7 @@
             // btnLimpar
             // 
             this.btnLimpar.Location = new System.Drawing.Point(20, 511);
-            this.btnLimpar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLimpar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(100, 28);
             this.btnLimpar.TabIndex = 4;
@@ -116,7 +117,7 @@
             // btVerLista
             // 
             this.btVerLista.Location = new System.Drawing.Point(255, 511);
-            this.btVerLista.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btVerLista.Margin = new System.Windows.Forms.Padding(4);
             this.btVerLista.Name = "btVerLista";
             this.btVerLista.Size = new System.Drawing.Size(100, 28);
             this.btVerLista.TabIndex = 5;
@@ -127,7 +128,7 @@
             // btnValNum
             // 
             this.btnValNum.Location = new System.Drawing.Point(147, 511);
-            this.btnValNum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnValNum.Margin = new System.Windows.Forms.Padding(4);
             this.btnValNum.Name = "btnValNum";
             this.btnValNum.Size = new System.Drawing.Size(100, 28);
             this.btnValNum.TabIndex = 6;
@@ -168,10 +169,80 @@
             this.listViewToolStripMenuItem,
             this.maskedTextBoxToolStripMenuItem,
             this.monthCalendarToolStripMenuItem,
-            this.numericUpDownToolStripMenuItem});
+            this.numericUpDownToolStripMenuItem,
+            this.toolStripMenuItem11});
             this.mnListView.Name = "mnListView";
             this.mnListView.Size = new System.Drawing.Size(115, 24);
             this.mnListView.Text = "Componentes";
+            // 
+            // toolStripMenuItem10
+            // 
+            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem10.Text = "Checkbox";
+            this.toolStripMenuItem10.Click += new System.EventHandler(this.sbmnComponentes_Checkbox_Click);
+            // 
+            // toolStripMenuItem9
+            // 
+            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem9.Text = "CheckedListBox";
+            this.toolStripMenuItem9.Click += new System.EventHandler(this.submnCheckedListBox_Click);
+            // 
+            // toolStripMenuItem8
+            // 
+            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem8.Text = "ComboBox";
+            this.toolStripMenuItem8.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem7.Text = "DateTimePicker";
+            this.toolStripMenuItem7.Click += new System.EventHandler(this.mnDatetimePicker_Click);
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem6.Text = "Label/LinkLabel";
+            this.toolStripMenuItem6.Click += new System.EventHandler(this.mnLinkLabel_Click_1);
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem5.Text = "ListBox";
+            this.toolStripMenuItem5.Click += new System.EventHandler(this.mnlistBoxToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem4.Text = "ListView";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.listViewToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem3.Text = "MaskedTextBox";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.maskedTextBoxToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem2.Text = "MonthCalendar";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.monthCalendarToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem1.Text = "NumericUpDown";
             // 
             // sbmnComponentes_Checkbox
             // 
@@ -243,74 +314,12 @@
             this.numericUpDownToolStripMenuItem.Text = "NumericUpDown";
             this.numericUpDownToolStripMenuItem.Click += new System.EventHandler(this.numericUpDownToolStripMenuItem_Click);
             // 
-            // toolStripMenuItem1
+            // toolStripMenuItem11
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem1.Text = "NumericUpDown";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem2.Text = "MonthCalendar";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.monthCalendarToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem3.Text = "MaskedTextBox";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.maskedTextBoxToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem4.Text = "ListView";
-            this.toolStripMenuItem4.Click += new System.EventHandler(this.listViewToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem5
-            // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem5.Text = "ListBox";
-            this.toolStripMenuItem5.Click += new System.EventHandler(this.mnlistBoxToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem6
-            // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem6.Text = "Label/LinkLabel";
-            this.toolStripMenuItem6.Click += new System.EventHandler(this.mnLinkLabel_Click_1);
-            // 
-            // toolStripMenuItem7
-            // 
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem7.Text = "DateTimePicker";
-            this.toolStripMenuItem7.Click += new System.EventHandler(this.mnDatetimePicker_Click);
-            // 
-            // toolStripMenuItem8
-            // 
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem8.Text = "ComboBox";
-            this.toolStripMenuItem8.Click += new System.EventHandler(this.comboBoxToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem9.Text = "CheckedListBox";
-            this.toolStripMenuItem9.Click += new System.EventHandler(this.submnCheckedListBox_Click);
-            // 
-            // toolStripMenuItem10
-            // 
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(224, 26);
-            this.toolStripMenuItem10.Text = "Checkbox";
-            this.toolStripMenuItem10.Click += new System.EventHandler(this.sbmnComponentes_Checkbox_Click);
+            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem11.Text = "PictureBox";
+            this.toolStripMenuItem11.Click += new System.EventHandler(this.toolStripMenuItem11_Click);
             // 
             // frmPrincipal
             // 
@@ -327,7 +336,7 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -370,6 +379,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem numericUpDownToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
     }
 }
 

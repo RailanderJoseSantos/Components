@@ -185,8 +185,14 @@ namespace Components
 
         private void numericUpDownToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmNumeric numUpDown = new frmNumeric();
+            frmNumericUpDown numUpDown = new frmNumericUpDown();
             numUpDown.ShowDialog();
+        }
+
+        private void toolStripMenuItem11_Click(object sender, EventArgs e)
+        {
+            frmPictureBox frmPic = new frmPictureBox();
+            frmPic.ShowDialog();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Components
 {
-    partial class frmNumeric
+    partial class frmNumericUpDown
     {
         /// <summary>
         /// Required designer variable.
@@ -43,7 +43,7 @@
             0});
             this.numUpDown1.Location = new System.Drawing.Point(12, 42);
             this.numUpDown1.Maximum = new decimal(new int[] {
-            50,
+            500,
             0,
             0,
             0});
@@ -80,7 +80,7 @@
             this.btnDefinirValor.UseVisualStyleBackColor = true;
             this.btnDefinirValor.Click += new System.EventHandler(this.btnDefinirValor_Click);
             // 
-            // frmNumeric
+            // frmNumericUpDown
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -88,7 +88,7 @@
             this.Controls.Add(this.btnDefinirValor);
             this.Controls.Add(this.txbValor);
             this.Controls.Add(this.numUpDown1);
-            this.Name = "frmNumeric";
+            this.Name = "frmNumericUpDown";
             this.Text = "Numeric";
             ((System.ComponentModel.ISupportInitialize)(this.numUpDown1)).EndInit();
             this.ResumeLayout(false);
