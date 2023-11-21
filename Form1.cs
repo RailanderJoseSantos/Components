@@ -194,5 +194,11 @@ namespace Components
             frmPictureBox frmPic = new frmPictureBox();
             frmPic.ShowDialog();
         }
+
+        private void progressBarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProgressBar barraProgresso = new  frmProgressBar();
+            barraProgresso.ShowDialog();    
+        }
     }
 }
