@@ -60,6 +60,7 @@
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.componentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.progressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radioButtonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -321,7 +322,8 @@
             // componentsToolStripMenuItem
             // 
             this.componentsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.progressBarToolStripMenuItem});
+            this.progressBarToolStripMenuItem,
+            this.radioButtonToolStripMenuItem});
             this.componentsToolStripMenuItem.Name = "componentsToolStripMenuItem";
             this.componentsToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.componentsToolStripMenuItem.Text = "Components";
@@ -332,6 +334,13 @@
             this.progressBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.progressBarToolStripMenuItem.Text = "ProgressBar";
             this.progressBarToolStripMenuItem.Click += new System.EventHandler(this.progressBarToolStripMenuItem_Click);
+            // 
+            // radioButtonToolStripMenuItem
+            // 
+            this.radioButtonToolStripMenuItem.Name = "radioButtonToolStripMenuItem";
+            this.radioButtonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.radioButtonToolStripMenuItem.Text = "RadioButton";
+            this.radioButtonToolStripMenuItem.Click += new System.EventHandler(this.radioButtonToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -393,6 +402,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
         private System.Windows.Forms.ToolStripMenuItem componentsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem progressBarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem radioButtonToolStripMenuItem;
     }
 }
 

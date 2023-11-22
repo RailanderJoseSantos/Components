@@ -200,5 +200,11 @@ namespace Components
             frmProgressBar barraProgresso = new  frmProgressBar();
             barraProgresso.ShowDialog();    
         }
+
+        private void radioButtonToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmRadioButton frmradio = new frmRadioButton();
+            frmradio.ShowDialog();
+        }
     }
 }
