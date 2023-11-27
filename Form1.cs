@@ -206,5 +206,11 @@ namespace Components
             frmRadioButton frmradio = new frmRadioButton();
             frmradio.ShowDialog();
         }
+
+        private void trackBarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTrackBar trackbar = new frmTrackBar();
+            trackbar.ShowDialog();
+        }
     }
 }
