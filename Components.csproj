@@ -142,6 +142,12 @@
     <Compile Include="frmTrackBar.Designer.cs">
       <DependentUpon>frmTrackBar.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreeView.Designer.cs">
+      <DependentUpon>frmTreeView.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVeiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTrackBar.resx">
       <DependentUpon>frmTrackBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreeView.resx">
+      <DependentUpon>frmTreeView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVeiculos.resx">
       <DependentUpon>frmVeiculos.cs</DependentUpon>

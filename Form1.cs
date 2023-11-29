@@ -212,5 +212,11 @@ namespace Components
             frmTrackBar trackbar = new frmTrackBar();
             trackbar.ShowDialog();
         }
+
+        private void triViewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTreeView triview = new frmTreeView();
+            triview.ShowDialog();
+        }
     }
 }
