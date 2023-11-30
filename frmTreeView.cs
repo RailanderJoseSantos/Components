@@ -68,5 +68,34 @@ namespace Components
 
             }
         }
+
+        private void btnAdicionarFilho_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRemoverSelecionado_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                treeview1.Nodes.Remove(treeview1.SelectedNode) );
+             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+}
+
+        private void btnRemover_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                treeview1.Nodes.Remove(treeview1.Nodes[""]);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

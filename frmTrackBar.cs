@@ -52,6 +52,7 @@ namespace Components
         private void frmTrackBar_Load(object sender, EventArgs e)
         {
             txbValor.Text = trkb1.Value.ToString();
+            lbl1.Text = trkb1.Value.ToString();
         }
     }
 }

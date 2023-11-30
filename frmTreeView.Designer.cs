@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Hrv");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Fit");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Honda", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2});
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Golf");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Pólo");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Wolksvagem", new System.Windows.Forms.TreeNode[] {
-            treeNode4,
-            treeNode5});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Hrv");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Fit");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Honda", new System.Windows.Forms.TreeNode[] {
+            treeNode13,
+            treeNode14});
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Golf");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Pólo");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Wolksvagem", new System.Windows.Forms.TreeNode[] {
+            treeNode16,
+            treeNode17});
             this.treeview1 = new System.Windows.Forms.TreeView();
             this.btnAdicionarPai = new System.Windows.Forms.Button();
             this.btnRemover = new System.Windows.Forms.Button();
@@ -46,42 +46,45 @@
             this.txbNoPai = new System.Windows.Forms.TextBox();
             this.txbNoFilho = new System.Windows.Forms.TextBox();
             this.btnAdicionarFilho = new System.Windows.Forms.Button();
+            this.btnRemoverSelecionado = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // treeview1
             // 
-            this.treeview1.Location = new System.Drawing.Point(12, 22);
+            this.treeview1.Location = new System.Drawing.Point(9, 18);
+            this.treeview1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.treeview1.Name = "treeview1";
-            treeNode1.Name = "hrv";
-            treeNode1.Tag = "h-hrv";
-            treeNode1.Text = "Hrv";
-            treeNode2.Name = "fit";
-            treeNode2.Tag = "h-fit";
-            treeNode2.Text = "Fit";
-            treeNode3.Name = "honda";
-            treeNode3.Tag = "h";
-            treeNode3.Text = "Honda";
-            treeNode4.Name = "golf";
-            treeNode4.Tag = "w-golf";
-            treeNode4.Text = "Golf";
-            treeNode5.Name = "polo";
-            treeNode5.Tag = "w-polo";
-            treeNode5.Text = "Pólo";
-            treeNode6.Name = "wolksvagem";
-            treeNode6.Tag = "w";
-            treeNode6.Text = "Wolksvagem";
+            treeNode13.Name = "hrv";
+            treeNode13.Tag = "h-hrv";
+            treeNode13.Text = "Hrv";
+            treeNode14.Name = "fit";
+            treeNode14.Tag = "h-fit";
+            treeNode14.Text = "Fit";
+            treeNode15.Name = "honda";
+            treeNode15.Tag = "h";
+            treeNode15.Text = "Honda";
+            treeNode16.Name = "golf";
+            treeNode16.Tag = "w-golf";
+            treeNode16.Text = "Golf";
+            treeNode17.Name = "polo";
+            treeNode17.Tag = "w-polo";
+            treeNode17.Text = "Pólo";
+            treeNode18.Name = "wolksvagem";
+            treeNode18.Tag = "w";
+            treeNode18.Text = "Wolksvagem";
             this.treeview1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode3,
-            treeNode6});
-            this.treeview1.Size = new System.Drawing.Size(133, 332);
+            treeNode15,
+            treeNode18});
+            this.treeview1.Size = new System.Drawing.Size(101, 270);
             this.treeview1.TabIndex = 0;
             this.treeview1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeview1_AfterSelect);
             // 
             // btnAdicionarPai
             // 
-            this.btnAdicionarPai.Location = new System.Drawing.Point(193, 49);
+            this.btnAdicionarPai.Location = new System.Drawing.Point(145, 40);
+            this.btnAdicionarPai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdicionarPai.Name = "btnAdicionarPai";
-            this.btnAdicionarPai.Size = new System.Drawing.Size(123, 23);
+            this.btnAdicionarPai.Size = new System.Drawing.Size(92, 19);
             this.btnAdicionarPai.TabIndex = 1;
             this.btnAdicionarPai.Text = "Adicionar pai";
             this.btnAdicionarPai.UseVisualStyleBackColor = true;
@@ -89,57 +92,77 @@
             // 
             // btnRemover
             // 
-            this.btnRemover.Location = new System.Drawing.Point(193, 107);
+            this.btnRemover.Location = new System.Drawing.Point(145, 87);
+            this.btnRemover.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRemover.Name = "btnRemover";
-            this.btnRemover.Size = new System.Drawing.Size(123, 23);
+            this.btnRemover.Size = new System.Drawing.Size(92, 19);
             this.btnRemover.TabIndex = 2;
             this.btnRemover.Text = "Remover";
             this.btnRemover.UseVisualStyleBackColor = true;
+            this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(656, 22);
+            this.textBox1.Location = new System.Drawing.Point(492, 18);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(123, 22);
+            this.textBox1.Size = new System.Drawing.Size(93, 20);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(656, 50);
+            this.textBox2.Location = new System.Drawing.Point(492, 41);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(123, 22);
+            this.textBox2.Size = new System.Drawing.Size(93, 20);
             this.textBox2.TabIndex = 4;
             // 
             // txbNoPai
             // 
-            this.txbNoPai.Location = new System.Drawing.Point(193, 148);
+            this.txbNoPai.Location = new System.Drawing.Point(145, 120);
+            this.txbNoPai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbNoPai.Name = "txbNoPai";
-            this.txbNoPai.Size = new System.Drawing.Size(123, 22);
+            this.txbNoPai.Size = new System.Drawing.Size(93, 20);
             this.txbNoPai.TabIndex = 5;
             // 
             // txbNoFilho
             // 
-            this.txbNoFilho.Location = new System.Drawing.Point(193, 187);
+            this.txbNoFilho.Location = new System.Drawing.Point(145, 152);
+            this.txbNoFilho.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txbNoFilho.Name = "txbNoFilho";
-            this.txbNoFilho.Size = new System.Drawing.Size(123, 22);
+            this.txbNoFilho.Size = new System.Drawing.Size(93, 20);
             this.txbNoFilho.TabIndex = 6;
             // 
             // btnAdicionarFilho
             // 
-            this.btnAdicionarFilho.Location = new System.Drawing.Point(193, 78);
+            this.btnAdicionarFilho.Location = new System.Drawing.Point(145, 63);
+            this.btnAdicionarFilho.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdicionarFilho.Name = "btnAdicionarFilho";
-            this.btnAdicionarFilho.Size = new System.Drawing.Size(123, 23);
+            this.btnAdicionarFilho.Size = new System.Drawing.Size(92, 19);
             this.btnAdicionarFilho.TabIndex = 7;
             this.btnAdicionarFilho.Text = "Adicionar Filho";
             this.btnAdicionarFilho.UseVisualStyleBackColor = true;
+            this.btnAdicionarFilho.Click += new System.EventHandler(this.btnAdicionarFilho_Click);
+            // 
+            // btnRemoverSelecionado
+            // 
+            this.btnRemoverSelecionado.Location = new System.Drawing.Point(241, 87);
+            this.btnRemoverSelecionado.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRemoverSelecionado.Name = "btnRemoverSelecionado";
+            this.btnRemoverSelecionado.Size = new System.Drawing.Size(92, 19);
+            this.btnRemoverSelecionado.TabIndex = 8;
+            this.btnRemoverSelecionado.Text = "Remover Selecionado";
+            this.btnRemoverSelecionado.UseVisualStyleBackColor = true;
+            this.btnRemoverSelecionado.Click += new System.EventHandler(this.btnRemoverSelecionado_Click);
             // 
             // frmTreeView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.btnRemoverSelecionado);
             this.Controls.Add(this.btnAdicionarFilho);
             this.Controls.Add(this.txbNoFilho);
             this.Controls.Add(this.txbNoPai);
@@ -148,6 +171,7 @@
             this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.btnAdicionarPai);
             this.Controls.Add(this.treeview1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmTreeView";
             this.Text = "TreeView";
             this.ResumeLayout(false);
@@ -165,5 +189,6 @@
         private System.Windows.Forms.TextBox txbNoPai;
         private System.Windows.Forms.TextBox txbNoFilho;
         private System.Windows.Forms.Button btnAdicionarFilho;
+        private System.Windows.Forms.Button btnRemoverSelecionado;
     }
 }
