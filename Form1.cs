@@ -218,5 +218,17 @@ namespace Components
             frmTreeView triview = new frmTreeView();
             triview.ShowDialog();
         }
+
+        private void splitContainerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSplitContainer frmSplitContainer = new frmSplitContainer();
+            frmSplitContainer.ShowDialog();
+        }
+
+        private void tabControlToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTabControl frmTabControl = new frmTabControl();
+            frmTabControl.ShowDialog();
+        }
     }
 }

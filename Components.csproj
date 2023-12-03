@@ -136,6 +136,18 @@
     <Compile Include="frmRadioButton.Designer.cs">
       <DependentUpon>frmRadioButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSplitContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplitContainer.Designer.cs">
+      <DependentUpon>frmSplitContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabControl.Designer.cs">
+      <DependentUpon>frmTabControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTrackBar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +212,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRadioButton.resx">
       <DependentUpon>frmRadioButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplitContainer.resx">
+      <DependentUpon>frmSplitContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTabControl.resx">
+      <DependentUpon>frmTabControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTrackBar.resx">
       <DependentUpon>frmTrackBar.cs</DependentUpon>

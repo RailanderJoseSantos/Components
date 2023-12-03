@@ -78,7 +78,7 @@ namespace Components
         {
             try
             {
-                treeview1.Nodes.Remove(treeview1.SelectedNode) );
+                treeview1.Nodes.Remove(treeview1.SelectedNode);
              }
             catch (Exception ex)
             {
