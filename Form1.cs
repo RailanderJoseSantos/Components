@@ -230,5 +230,11 @@ namespace Components
             frmTabControl frmTabControl = new frmTabControl();
             frmTabControl.ShowDialog();
         }
+
+        private void tableLayoutPanelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTableLayoutPanel frmTableLayoutPanel = new frmTableLayoutPanel();
+            frmTableLayoutPanel.ShowDialog();
+        }
     }
 }

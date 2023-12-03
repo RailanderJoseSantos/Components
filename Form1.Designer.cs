@@ -65,6 +65,7 @@
             this.triViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -338,7 +339,8 @@
             this.trackBarToolStripMenuItem,
             this.triViewToolStripMenuItem,
             this.splitContainerToolStripMenuItem,
-            this.tabControlToolStripMenuItem});
+            this.tabControlToolStripMenuItem,
+            this.tableLayoutPanelToolStripMenuItem});
             this.componentsToolStripMenuItem.Name = "componentsToolStripMenuItem";
             this.componentsToolStripMenuItem.Size = new System.Drawing.Size(107, 24);
             this.componentsToolStripMenuItem.Text = "Components";
@@ -384,6 +386,13 @@
             this.tabControlToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tabControlToolStripMenuItem.Text = "TabControl";
             this.tabControlToolStripMenuItem.Click += new System.EventHandler(this.tabControlToolStripMenuItem_Click);
+            // 
+            // tableLayoutPanelToolStripMenuItem
+            // 
+            this.tableLayoutPanelToolStripMenuItem.Name = "tableLayoutPanelToolStripMenuItem";
+            this.tableLayoutPanelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tableLayoutPanelToolStripMenuItem.Text = "TableLayoutPanel";
+            this.tableLayoutPanelToolStripMenuItem.Click += new System.EventHandler(this.tableLayoutPanelToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -451,6 +460,7 @@
         private System.Windows.Forms.ToolStripMenuItem triViewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem splitContainerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tabControlToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tableLayoutPanelToolStripMenuItem;
     }
 }
 
