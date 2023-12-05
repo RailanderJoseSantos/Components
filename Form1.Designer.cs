@@ -66,6 +66,8 @@
             this.splitContainerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
+            this.backGroundWorkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -340,7 +342,9 @@
             this.triViewToolStripMenuItem,
             this.splitContainerToolStripMenuItem,
             this.tabControlToolStripMenuItem,
-            this.tableLayoutPanelToolStripMenuItem});
+            this.tableLayoutPanelToolStripMenuItem,
+            this.toolStripMenuItem12,
+            this.backGroundWorkerToolStripMenuItem});
             this.componentsToolStripMenuItem.Name = "componentsToolStripMenuItem";
             this.componentsToolStripMenuItem.Size = new System.Drawing.Size(107, 24);
             this.componentsToolStripMenuItem.Text = "Components";
@@ -393,6 +397,20 @@
             this.tableLayoutPanelToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.tableLayoutPanelToolStripMenuItem.Text = "TableLayoutPanel";
             this.tableLayoutPanelToolStripMenuItem.Click += new System.EventHandler(this.tableLayoutPanelToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem12
+            // 
+            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(224, 26);
+            this.toolStripMenuItem12.Text = "TooStripContainer";
+            this.toolStripMenuItem12.Click += new System.EventHandler(this.toolStripMenuItem12_Click);
+            // 
+            // backGroundWorkerToolStripMenuItem
+            // 
+            this.backGroundWorkerToolStripMenuItem.Name = "backGroundWorkerToolStripMenuItem";
+            this.backGroundWorkerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.backGroundWorkerToolStripMenuItem.Text = "BackGroundWorker";
+            this.backGroundWorkerToolStripMenuItem.Click += new System.EventHandler(this.backGroundWorkerToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -461,6 +479,8 @@
         private System.Windows.Forms.ToolStripMenuItem splitContainerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tabControlToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tableLayoutPanelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
+        private System.Windows.Forms.ToolStripMenuItem backGroundWorkerToolStripMenuItem;
     }
 }
 

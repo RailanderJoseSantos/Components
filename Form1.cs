@@ -236,5 +236,17 @@ namespace Components
             frmTableLayoutPanel frmTableLayoutPanel = new frmTableLayoutPanel();
             frmTableLayoutPanel.ShowDialog();
         }
+
+        private void toolStripMenuItem12_Click(object sender, EventArgs e)
+        {
+            frmToolStripContainer frmToolStripContainer = new frmToolStripContainer();
+            frmToolStripContainer.ShowDialog();
+        }
+
+        private void backGroundWorkerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBackGroundWorker frmBackGroundWorker = new frmBackGroundWorker();
+            frmBackGroundWorker.ShowDialog();
+        }
     }
 }
