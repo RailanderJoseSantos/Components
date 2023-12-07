@@ -68,6 +68,7 @@
             this.tableLayoutPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
             this.backGroundWorkerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -344,7 +345,8 @@
             this.tabControlToolStripMenuItem,
             this.tableLayoutPanelToolStripMenuItem,
             this.toolStripMenuItem12,
-            this.backGroundWorkerToolStripMenuItem});
+            this.backGroundWorkerToolStripMenuItem,
+            this.timerToolStripMenuItem});
             this.componentsToolStripMenuItem.Name = "componentsToolStripMenuItem";
             this.componentsToolStripMenuItem.Size = new System.Drawing.Size(107, 24);
             this.componentsToolStripMenuItem.Text = "Components";
@@ -411,6 +413,13 @@
             this.backGroundWorkerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.backGroundWorkerToolStripMenuItem.Text = "BackGroundWorker";
             this.backGroundWorkerToolStripMenuItem.Click += new System.EventHandler(this.backGroundWorkerToolStripMenuItem_Click);
+            // 
+            // timerToolStripMenuItem
+            // 
+            this.timerToolStripMenuItem.Name = "timerToolStripMenuItem";
+            this.timerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.timerToolStripMenuItem.Text = "Timer";
+            this.timerToolStripMenuItem.Click += new System.EventHandler(this.timerToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -481,6 +490,7 @@
         private System.Windows.Forms.ToolStripMenuItem tableLayoutPanelToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
         private System.Windows.Forms.ToolStripMenuItem backGroundWorkerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem timerToolStripMenuItem;
     }
 }
 

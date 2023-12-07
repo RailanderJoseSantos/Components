@@ -160,6 +160,12 @@
     <Compile Include="frmTableLayoutPanel.Designer.cs">
       <DependentUpon>frmTableLayoutPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimer.Designer.cs">
+      <DependentUpon>frmTimer.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmToolStripContainer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +249,9 @@
     <EmbeddedResource Include="frmTableLayoutPanel.resx">
       <DependentUpon>frmTableLayoutPanel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTimer.resx">
+      <DependentUpon>frmTimer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmToolStripContainer.resx">
       <DependentUpon>frmToolStripContainer.cs</DependentUpon>
     </EmbeddedResource>
@@ -280,6 +289,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Leiame.txt" />
+    <None Include="Resources\images1.png" />
+    <None Include="Resources\images.png" />
     <None Include="Resources\fazenda.jpg" />
     <None Include="Resources\avestruz.jpg" />
     <None Include="Resources\cow.jpg" />
